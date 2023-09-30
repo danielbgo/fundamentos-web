@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!--Menu no topo da pagina-->
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -17,33 +18,61 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    
-    <h1>Sobre Mim</h1>
-    <p>
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
-        Vide electram sadipscing et per. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
-        Mé faiz elementum girarzis, nisi eros vermeio. Aenean aliquam molestie leo, vitae iaculis nisl.
-    </p>
-    <p>
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
-        Vide electram sadipscing et per. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
-        Mé faiz elementum girarzis, nisi eros vermeio. Aenean aliquam molestie leo, vitae iaculis nisl.
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
-        Vide electram sadipscing et per. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
-        Mé faiz elementum girarzis, nisi eros vermeio. Aenean aliquam molestie leo, vitae iaculis nisl.
-    </p>
 
-    <img src="./assets/img/rihanna.jpg" alt="Foto do criador do Conteudo">
+    <h1 class="center">Sobre Mim</h1>
+    <div class="container">
+        <div class="container">
+            <img class="br-50 wh-300 p30" src="./assets/img/rihanna.jpg" alt="Foto do criador do Conteudo">
+        </div> 
 
-<!--Integrando um vieo do youtube na pagina-->
-    <h2>Minha Serie de TV Favorita</h2>
-    <iframe width="560" 
-        height="315" src="https://www.youtube.com/embed/XY2pFZniOAs?si=2GZV3yi3FIparQla"
-        title="YouTube video player" 
-        frameborder="0"
+        <div class="p-30">
+            <p class="center">
+                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
+                Vide electram sadipscing et per. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+                Mé faiz elementum girarzis, nisi eros vermeio. Aenean aliquam molestie leo, vitae iaculis nisl.
+            </p>
+            <p class="center justify">
+                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
+                Vide electram sadipscing et per. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+                Mé faiz elementum girarzis, nisi eros vermeio. Aenean aliquam molestie leo, vitae iaculis nisl.
+                Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
+                Vide electram sadipscing et per. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+                Mé faiz elementum girarzis, nisi eros vermeio. Aenean aliquam molestie leo, vitae iaculis nisl.
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--Integrando um vieo do youtube na pagina-->
+    <h2 class="center">Minha Serie de TV Favorita</h2>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XY2pFZniOAs?si=2GZV3yi3FIparQla"
+        title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
     </iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container ">
+            <a href="https://github.com/danielbgo" target="_blank">
+                <img class="tm-social " src="assets/img/github.png" alt="Logo do GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/danielb-gomes/" target="_blank">
+                <img class="tm-social " src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+           <a href="https://wa.me/5513988674223" target="_blank">
+            <img class="tm-social " src="assets/img/whatsapp.png" alt="Logo do WhatsApp">
+           </a>
+            <a href="https://instagram.com/daniel.b.gomes" target="_blank">
+                <img class="tm-social " src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+        </div>
+        <p class="center">
+            Todos os Direitos Reservados para: Daniel Beserra Gomes &COPY;
+        </p>
+    </footer>
 
 </body>
 
